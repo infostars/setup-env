@@ -20,3 +20,5 @@ echo "Installing RabbitMQ..."
 yum install -y rabbitmq-server
 echo "Installing MongoDB..."
 yum install -y mongodb-org
+echo "Installing Git18..."
+yum install -y git18
