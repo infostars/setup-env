@@ -9,6 +9,11 @@ echo "Installing vortex repo..."
 yum install -y http://vortex-rpm.org/el6/noarch/vortex-release-6-1.vortex.el6.noarch.rpm
 echo "Installing ius-release repo..."
 yum install -y http://dl.iuscommunity.org/pub/ius/stable/CentOS/6/x86_64/ius-release-1.0-13.ius.centos6.noarch.rpm
+echo "Creating Google Chrome repo file" 
+cp -f repo/google-chrome.repo /etc/yum.repos.d/
+echo "Installing Google Chrome
+chmod +x scripts/install_chrome.sh
+./scripts/install_chrome.sh -qq
 echo "Installing PHP5.5 ZTS"
 yum install -y php55t*
 echo "Installing memcached server"
