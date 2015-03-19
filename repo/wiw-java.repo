@@ -1,0 +1,6 @@
+[wiw-java]
+name=wiw-java x86_64
+baseurl=http://puppet.wiw.ru/wiw-java/
+enabled=1
+gpgcheck=0
+protect=1
