@@ -2,6 +2,6 @@
 
 ```
 wget https://raw.githubusercontent.com/infostars/setup-env/master/get.sh
-chmod +ux get.sh
+chmod u+x get.sh
 sudo ./get.sh
 ```
